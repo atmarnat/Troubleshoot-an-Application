@@ -20,7 +20,7 @@ namespace NonMotorizedVehicles
         public bool Driving(bool isMoving)
         {
             this.isMoving = isMoving;
-            return this.isMoving
+            return this.isMoving;
         }
     }
 }
