@@ -1,5 +1,5 @@
 ﻿using Enumerations;
-using NonMotorizedVehicles;
+using INonMotorizedVehicles;
 
 namespace Structures
 {

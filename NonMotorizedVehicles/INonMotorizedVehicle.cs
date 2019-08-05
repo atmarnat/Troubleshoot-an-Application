@@ -1,6 +1,6 @@
 ﻿using Enumerations;
 
-namespace NonMotorizedVehicles
+namespace INonMotorizedVehicles
 {
     public interface INonMotorizedVehicle
     {
