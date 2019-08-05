@@ -2,7 +2,7 @@
 
 namespace NonMotorizedVehicles
 {
-    interface INonMotorizedVehicle
+    public interface INonMotorizedVehicle
     {
         bool HasPedals { get; set; }
         int NoOfWheels { get; set; }

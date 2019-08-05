@@ -11,11 +11,11 @@ namespace NonMotorizedVehicles
         }
         public bool HasPedals { get;set;}
         public int NoOfWheels { get; set; }
-        TerrainType TerrainType { get; set; }
+        public TerrainType TerrainType { get; set; }
 
         public bool Moving()
         {
-            return Moving(this.isMoving);
+            return this.isMoving;
         }
         public bool Driving(bool isMoving)
         {
